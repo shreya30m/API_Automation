@@ -7,6 +7,7 @@ import pytest
 
 
 @pytest.mark.order(13)
+@pytest.mark.localization
 def test_localization_search_portuguese():
     """Test searching Portuguese localization messages"""
     token = get_auth_token("user")

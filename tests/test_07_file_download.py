@@ -5,6 +5,7 @@ import pytest
 
 
 @pytest.mark.order(7)
+@pytest.mark.file_operations
 def test_file_download():
     """Test downloading generated file"""
     token = get_auth_token("user")

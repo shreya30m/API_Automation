@@ -75,6 +75,7 @@ def prepare_template_for_upload(token):
 
 
 @pytest.mark.order(8)
+@pytest.mark.file_operations
 def test_file_upload():
     """Test uploading a file"""
     token = get_auth_token("user")

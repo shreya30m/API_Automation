@@ -12,6 +12,7 @@ logger = logging.getLogger(__name__)
 
 
 @pytest.mark.order(15)
+@pytest.mark.boundary
 def test_boundary_relationship_search():
     """Test searching boundary relationships"""
     token = get_auth_token("user")

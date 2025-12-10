@@ -13,6 +13,7 @@ logger = logging.getLogger(__name__)
 
 
 @pytest.mark.order(1)
+@pytest.mark.boundary
 def test_boundary_hierarchy_create():
     """Test creating a boundary hierarchy"""
     token = get_auth_token("user")

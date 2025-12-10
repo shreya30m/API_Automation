@@ -7,6 +7,7 @@ import pytest
 
 
 @pytest.mark.order(3)
+@pytest.mark.localization
 def test_localization_upsert():
     """Test upserting localization messages"""
     token = get_auth_token("user")

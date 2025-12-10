@@ -8,6 +8,7 @@ import time
 
 
 @pytest.mark.order(6)
+@pytest.mark.generate
 def test_generate_search():
     """Test searching for generated boundary data with polling"""
     token = get_auth_token("user")

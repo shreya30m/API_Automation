@@ -7,6 +7,7 @@ import pytest
 
 
 @pytest.mark.order(2)
+@pytest.mark.boundary
 def test_boundary_hierarchy_search():
     """Test searching for boundary hierarchy"""
     token = get_auth_token("user")

@@ -16,6 +16,7 @@ output/*.xlsx
 allure-results/
 allure-report/
 reports/
+.test_report.json
 
 # Environment variables
 .env

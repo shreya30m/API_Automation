@@ -7,6 +7,7 @@ import pytest
 
 
 @pytest.mark.order(10)
+@pytest.mark.process
 def test_process_search():
     """Test searching for processed boundary data"""
     token = get_auth_token("user")

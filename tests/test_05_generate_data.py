@@ -7,6 +7,7 @@ import pytest
 
 
 @pytest.mark.order(5)
+@pytest.mark.generate
 def test_generate_data():
     """Test generating boundary data"""
     token = get_auth_token("user")

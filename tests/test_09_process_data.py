@@ -7,6 +7,7 @@ import pytest
 
 
 @pytest.mark.order(9)
+@pytest.mark.process
 def test_process_data():
     """Test processing uploaded boundary data"""
     token = get_auth_token("user")
